@@ -5,13 +5,30 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Academy</title>
+		<link rel="manifest" href="manifest.json">
+		<meta name="mobile-web-app-capable" content="yes">
 		<link rel="stylesheet" href="css/main.css" />
 		<script defer src="js/main.js"></script>	
 		<script defer src="js/login.js"></script>	
 		<script defer src="js/slide.js"></script>	
+		<script defer src="./js/slide.js"></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">  
+
+		<script>
+			if('serviceWorker' in navigator){ //서비스워커가 있을 때(서비스워커 지원여부)
+				// navigator.serviceWorker.register('sw.js') //sw.js 등록
+				navigator.serviceWorker.register('service-worker.js') //등록
+					.then(function(success){ 
+						console.log('성공', success)
+					})
+					.catch(function(error){
+						console.log('실패', error)
+					})
+				}
+		</script>
+
 	</head>
 	<body>
 

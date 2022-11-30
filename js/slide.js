@@ -1,6 +1,6 @@
 // 슬라이크 전체 크기(width 구하기)
 const slide = document.querySelector(".slide");
-let slideWidth = slide.clientWidth;
+const slideWidth = slide.clientWidth;
 
 // 슬라이드 전체를 선택해 값을 변경해주기 위해 슬라이드 전체 선택하기
 let slideItems = document.querySelectorAll(".slide_item");
