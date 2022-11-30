@@ -1,0 +1,52 @@
+{
+  "name" : "CHWEDU",
+  "short_name" : "EDU",
+
+  "background_color": "#ffffff",
+  "description": "PWA연습용",
+  "dir": "auto",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "https://shinhee0401.github.io/CHWEDU/",
+  "start_url": "https://shinhee0401.github.io/CHWEDU/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "gcm_sender_id":"",
+  "gcm_user_visible_only":true,
+  "screenshots": [
+    {
+      "src": "images/screen1.png",
+      "sizes": "752x1336"
+    },
+    {
+      "src": "images/screen2.png",
+      "sizes": "750x1334"
+    },
+    {
+      "src": "images/screen3.png",
+      "sizes": "748x1336"
+    }
+  ],
+  "icons": [
+    {
+      "src": "images/maskable_icon_x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/maskable_icon_x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "images/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "ko"
+}
